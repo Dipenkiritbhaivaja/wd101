@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+}
+
+form {
+    overflow-x: hidden;
+    width: 500px;
+    min-height: 550px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding: 30px 30px;
+    box-shadow: 2px 5px 30px rgba(92, 89, 89, 0.219), inset 2px 2px 10px rgba(82, 80, 80, 0.268);
+}
+
+.form-heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.input-fields {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(70, 70, 70);
+}
+
+.input-fields div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.input-fields input {
+    border-radius: 5px;
+    width: 250px;
+    padding: 12px;
+    font-size: 20px;
+    background-color: rgba(212, 226, 221, 0.661);
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 5px 5px rgba(171, 166, 166, 0.382);
+    cursor: text;
+}
+
+.input-fields input:focus {
+    outline: none;
+}
+
+.input-fields input::placeholder {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.invalid-border:invalid:focus {
+    outline: 3px solid red;
+}
+
+.valid-border:valid:focus {
+    outline: 3px solid rgb(68, 255, 68);
+}
+
+.checkbox {
+    width: 100%;
+    margin: 30px 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(35, 35, 35);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.checkbox label {
+    cursor: pointer;
+}
+
+.checkbox input {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.submit-btn {
+    margin-top: 20px;
+}
+
+.submit-btn button {
+    padding: 15px;
+    color: rgb(174, 0, 255);
+    background-color: rgba(0, 255, 0, 0.538);
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    border: 3px solid rgb(4, 104, 4);
+    box-shadow: none;
+    cursor: pointer;
+}
+
+#entry-table {
+    min-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.418);
+    margin-bottom: 500px;
+    padding: 50px 20px;
+    border-radius: 30px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 19px;
+    text-align: center;
+}
+
+td {
+    border: 1px solid gray;
+}
+
+th {
+    font-weight: 600;
+    font-size: 22px;
+}
