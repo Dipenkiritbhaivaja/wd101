@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="" id="user-form">
+            <div class="form-heading">
+                <h1>Registration Form</h1>
+            </div>
+            <div class="input-fields">
+
+                <div>
+                    <label for="name">Name</label>
+                    <input class="invalid-border valid-border" id="name" placeholder="Enter Name" required type="text">
+                </div>
+
+                <div>
+                    <label for="email">E-mail</label>
+                    <input class="invalid-border valid-border" id="email" placeholder="Enter E-mail" required
+                        type="email">
+                </div>
+
+                <div>
+                    <label for="password">Password</label>
+                    <input class="invalid-border valid-border" id="password" placeholder="Enter Password" required
+                        type="password" minlength="8">
+                </div>
+
+                <div>
+                    <label for="dob">Date of Birth</label>
+                    <input class="invalid-border valid-border" id="dob" required type="date">
+                </div>
+            </div>
+            <div class="checkbox">
+                <label for="checkedTerms">Accept Terms & Condition</label>
+                <input required type="checkbox" id="checkedTerms">
+            </div>
+            <div class="submit-btn">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+
+        <!-- Entries Table -->
+        <div id="entry-table">
+            <h1>Entries</h1>
+            <table id="user-entry-table">
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Password</th>
+                    <th>Dob</th>
+                    <th>Accepted Tems?</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
