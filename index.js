@@ -55,10 +55,10 @@ let insertRow = () => {
     let entries = retriveEntry()
 
     table.innerHTML = `<tr>
-        <th> Name</th>
-                    <th>E-mail</th>
+        <th>Name</th>
+                    <th>Email</th>
                     <th>Password</th>
-                    <th>DOB</th>
+                    <th>Dob</th>
                     <th>Accepted Tems?</th>
                 </tr > `
 
