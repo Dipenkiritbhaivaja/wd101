@@ -59,7 +59,7 @@ let insertRow = () => {
                     <th>Email</th>
                     <th>Password</th>
                     <th>Dob</th>
-                    <th>Accepted Tems?</th>
+                    <th>Accepted terms?</th>
                 </tr > `
 
     entries.forEach((entry) => {
